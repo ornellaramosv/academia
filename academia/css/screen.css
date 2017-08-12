@@ -1,0 +1,360 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+  color: #0c5390;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #f99734;
+  text-decoration: underline;
+}
+
+img{
+  max-width: 100%;
+}
+
+header h1#logo{
+  margin: 20px 0 10px;
+  padding: 0;
+}
+
+header h1#logo a{
+  background: url(../img/logo.png) left center no-repeat;
+  background-size: contain;
+  display: block;
+  height: 65px;
+  outline: none;
+  text-indent: -9999px;
+}
+
+header .contain-to-grid, header .top-bar, header .top-bar li, header .top-bar li a{
+  background-color: #3D678C !important;
+}
+
+nav {
+  background: #3D678C;
+}
+
+nav h2{
+  display: none;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  list-style-type: none;
+}
+
+nav ul li{
+  list-style-type: none;
+}
+
+nav ul li a{
+  background: #3D678C;
+  color: white;
+  display: block;
+  font-size: 12px;
+<<<<<<< HEAD
+  line-height: 40px;
+=======
+>>>>>>> development
+  text-shadow: #264c6c 1px 1px 0;
+  padding-left: 10px;
+}
+
+nav ul li a.active{
+  background: #E78931;
+  color: white;
+  text-shadow: #b86d21 1px 1px 0;
+}
+
+#search{
+  margin: 20px 0 10px;
+}
+
+#search h2{
+  display: none;
+}
+
+#search form{
+  margin: 0;
+}
+
+#search form input[type="search"]{
+  font-size: 10px;
+  height: 32px;
+  text-transform: lowercase;
+  width: 100%;
+}
+
+#search form input[type="submit"]{
+  background: #19538E;
+  border: 0;
+  color: white;
+  font-size: 10px;
+  height: 32px;
+  text-transform: lowercase;
+  width: 100%;
+}
+
+#social{
+  margin: 0 0 10px;
+}
+
+#social h2{
+  display: none;
+}
+
+#social ul{
+  margin: 0;
+  padding: 0;
+}
+
+#social ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+#social ul li a{
+  display: block;
+  height: 20px;
+  outline: 0;
+  text-indent: -9999px;
+  width: 20px;
+}
+
+#social ul li a.facebook{
+  background: url(../img/icon_facebook.png) no-repeat;
+}
+
+#social ul li a.twitter{
+  background: url(../img/icon_twitter.png) no-repeat;
+}
+
+#slider h2{
+  display: none;
+}
+
+#slider ul{
+  margin: 0;
+  padding: 0;
+}
+
+#slider ul li{
+  list-style: none;
+}
+
+#content h2{
+  color: #333;
+  font-family: Georgia, "Times News Roman", serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 46px;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+
+#content p{
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#gallery{
+  border-top: 1px solid #E78931;
+}
+
+#gallery h2{
+  color: #005392;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  margin: 24px 0 36px 0;
+}
+
+#gallery h2:after{
+  content: "»";
+  padding-left: 5px;
+}
+
+#gallery img{
+  height: 100%;
+  width: 100%;
+}
+
+#gallery ul{
+  margin: 0;
+  padding: 0;
+}
+
+#gallery ul li{
+  list-style: none;
+}
+
+aside h2{
+  color: #0c5390;
+  font-size: 11px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+aside h2:after{
+  content: "»";
+  padding-left: 5px;
+}
+
+aside article{
+  border-bottom: 1px solid #CCC;
+}
+
+aside article h3{
+  color: #005392;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+aside article p{
+  font-size: 12px;
+}
+
+aside article .img-left{
+  height: 40px;
+  margin: 0 20px 0 0;
+  width: 60px;
+}
+
+#sections{
+  margin-top: 75px;
+}
+
+#sections h2{
+  display: none;
+}
+
+#sections p{
+  border-bottom: 1px solid #CCC;
+  font-size: 11px;
+  margin: 0;
+  padding: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+#sections ul.top{
+  margin: 0;
+  padding: 0;
+}
+
+#sections ul.top > li{
+  border-bottom: 1px solid #CCC;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sections ul.top > li > a{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+#sections ul.top > li > ul{
+   border-left: 1px solid #CCC;
+   padding-left: 10px;
+}
+
+#sections ul.top > li > ul li{
+  line-height: 40px;
+  list-style-type: none;
+}
+
+#sections ul.top > li > ul li a{
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#sections li a:not(.button){
+  padding: 0;
+}
+
+#sections a{
+  color: #0c5390;
+}
+
+#sections a:hover{
+  color: #f99734;
+}
+
+#sections a.active{
+  color: black;
+}
+
+footer{
+  border-top: 1px solid #E78931;
+  margin:10px 0;
+}
+
+footer p{
+  color: #777;
+  font-size: 11px;
+}
+
+footer .navigation h2{
+  display: none;
+}
+
+footer .navigation ul{
+  margin: 28px 0 12px 0;
+  padding: 0;
+}
+
+footer .navigation ul li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 6px;
+}
+
+footer .navigation ul li a{
+  color: #005392;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+footer .contact h2{
+  color: black;
+  font-size: 11px;
+  font-weight: normal;
+  margin: 28px 0 12px 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+footer .contact p{
+  color: #777;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 22px;
+}
+
+footer .legal{
+
+}
+
+footer .legal h2{
+  display: none;
+}
+
+.img-left{
+  padding: 0 10px 10px 0;
+}
